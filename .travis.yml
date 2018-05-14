@@ -13,8 +13,10 @@ deploy:
     - linux.zip
     - mac.zip
     - src_no_node.zip
+    - Chrome_OS.zip
   on:
     tags: true
   overwrite: true
   skip_cleanup: true
-
+  allow_unsupported_files: true
+  remove_admnistrator_allowofications: true
